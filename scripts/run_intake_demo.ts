@@ -5,3 +5,5 @@ const response = await fetch("http://localhost:3000/deadlines/follow-up", {
 });
 
 console.log(await response.json());
+
+export {};
